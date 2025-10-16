@@ -19,6 +19,9 @@ function App() {
         <div className="min-h-screen bg-background">
           <Header />
           <main>
+            <div style={{background: 'blue', color: 'white', padding: '20px', textAlign: 'center', fontSize: '24px'}}>
+              DEBUG: MAIN CONTENT AREA IS RENDERING!
+            </div>
             <Routes>
               <Route path="/" element={<Home />} />
               <Route path="/services" element={<Services />} />
