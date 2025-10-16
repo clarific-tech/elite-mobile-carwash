@@ -45,8 +45,12 @@ export default function Home() {
     }
   ]
 
+  console.log('Home component rendering');
   return (
     <div className="bg-black text-white">
+      <div style={{background: 'red', color: 'white', padding: '20px', textAlign: 'center', fontSize: '24px'}}>
+        DEBUG: HOME COMPONENT IS RENDERING!
+      </div>
       {/* Hero Section */}
       <section 
         className="bg-black text-white relative overflow-hidden min-h-[60vh] flex items-center"
