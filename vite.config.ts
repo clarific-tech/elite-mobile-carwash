@@ -5,7 +5,7 @@ import path from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/elite-mobile-carwash/',
+  base: process.env.NODE_ENV === 'production' ? '/elite-mobile-carwash/' : '/',
   build: {
     rollupOptions: {
       output: {
