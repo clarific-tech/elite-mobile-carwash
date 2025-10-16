@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
-import { Car, Clock, MapPin, Star, CheckCircle, Users, Shield } from 'lucide-react'
+import { Clock, MapPin, Star, CheckCircle, Shield } from 'lucide-react'
 
 export default function Home() {
   const features = [

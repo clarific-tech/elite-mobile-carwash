@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useForm } from 'react-hook-form'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { z } from 'zod'
-import { Calendar, Clock, MapPin, User, Mail, Phone, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Calendar, Clock, User, ChevronLeft, ChevronRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -65,8 +65,8 @@ export default function Booking() {
     
     // First day of the month
     const firstDay = new Date(year, month, 1)
-    // Last day of the month
-    const lastDay = new Date(year, month + 1, 0)
+    // Last day of the month (commented out as not used)
+    // const lastDay = new Date(year, month + 1, 0)
     // First day of the week (Sunday = 0)
     const startDate = new Date(firstDay)
     startDate.setDate(startDate.getDate() - firstDay.getDay())
