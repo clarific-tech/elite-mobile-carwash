@@ -1,4 +1,4 @@
-import { HashRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route, Navigate } from 'react-router-dom'
 import { BookingProvider } from './context/BookingContext'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -23,6 +23,7 @@ function App() {
               <Route path="/booking" element={<Booking />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/admin" element={<Admin />} />
+              <Route path="*" element={<Navigate to="/" replace />} />
             </Routes>
           </main>
           <Footer />
