@@ -10,6 +10,7 @@ import Admin from './pages/Admin'
 
 function App() {
   // Updated with HashRouter for GitHub Pages compatibility - Version 4 - FINAL FIX
+  console.log('App loaded with HashRouter');
   return (
     <BookingProvider>
       <Router>
