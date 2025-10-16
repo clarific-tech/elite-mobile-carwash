@@ -46,7 +46,7 @@ export default function Home() {
   ]
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="bg-black text-white">
       {/* Hero Section */}
       <section 
         className="bg-black text-white relative overflow-hidden min-h-[60vh] flex items-center"
