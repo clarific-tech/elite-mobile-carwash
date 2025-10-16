@@ -15,7 +15,7 @@ function App() {
   console.log('Current hash:', window.location.hash);
   return (
     <BookingProvider>
-      <Router>
+      <Router basename="/elite-mobile-carwash">
         <div className="min-h-screen bg-background">
           <Header />
           <main>
