@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { HashRouter as Router, Routes, Route } from 'react-router-dom'
 import { BookingProvider } from './context/BookingContext'
 import Header from './components/Header'
 import Footer from './components/Footer'
@@ -15,7 +15,7 @@ function App() {
   console.log('Current hash:', window.location.hash);
   return (
     <BookingProvider>
-      <Router basename="/elite-mobile-carwash">
+      <Router>
         <div className="min-h-screen bg-background">
           <Header />
           <main>
