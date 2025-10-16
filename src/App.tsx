@@ -10,7 +10,7 @@ import Admin from './pages/Admin'
 
 function App() {
   // Updated with HashRouter for GitHub Pages compatibility - Version 4 - FINAL FIX
-  console.log('App loaded with HashRouter');
+  console.log('App loaded with HashRouter - VERSION 2');
   console.log('Current location:', window.location.href);
   console.log('Current hash:', window.location.hash);
   return (
