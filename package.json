@@ -2,7 +2,7 @@
   "name": "mobile-car-wash",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://clarific-tech.github.io/elite-mobile-carwash",
+  "homepage": "https://clarific-tech.github.io",
   "type": "module",
   "scripts": {
     "dev": "vite",
