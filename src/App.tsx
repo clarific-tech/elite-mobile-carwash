@@ -9,7 +9,7 @@ import Contact from './pages/Contact'
 import Admin from './pages/Admin'
 
 function App() {
-  // Updated with HashRouter for GitHub Pages compatibility
+  // Updated with HashRouter for GitHub Pages compatibility - Version 2
   return (
     <BookingProvider>
       <Router>
