@@ -51,7 +51,7 @@ export default function Home() {
       <section 
         className="bg-black text-white relative overflow-hidden min-h-[60vh] flex items-center"
         style={{
-          backgroundImage: 'url(/images/carwash_background.jpg)',
+          backgroundImage: 'url(/elite-mobile-carwash/images/carwash_background.jpg)',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',

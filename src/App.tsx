@@ -11,7 +11,7 @@ import Admin from './pages/Admin'
 function App() {
   return (
     <BookingProvider>
-      <Router>
+      <Router basename="/elite-mobile-carwash">
         <div className="min-h-screen bg-background">
           <Header />
           <main>
